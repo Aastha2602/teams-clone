@@ -1,0 +1,18 @@
+.sideBar{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(197, 204, 204);
+    .upperSection{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .lowerSection{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        
+    }
+}
