@@ -1,24 +1,19 @@
 .header{
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;
+    background-color: #464775;
     justify-content: space-between;
-    background-color: #4243ac;
-    height: 50px;
-
-    .left{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: #fff;
-    }
+    height: 4rem;
 
     .searchSection{
         display: flex;
         flex-direction: row;
         align-items: center;
         color: #fff;
+        justify-content: flex-start;
+        text-align: center;
+        margin: 0 auto;
+        height: 20 px;
     }
 
     .right{
@@ -26,6 +21,7 @@
         flex-direction: row;
         align-items: center;
         color: #fff;
+        justify-content: right;
     }
     
 }

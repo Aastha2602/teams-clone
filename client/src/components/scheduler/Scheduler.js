@@ -3,7 +3,7 @@ import { ScheduleComponent, Day, Week, WorkWeek, Month, Agenda, Inject } from '@
 
 function Scheduler() {
     return (
-        <ScheduleComponent height='100vh' width='100vw' selectedDate={new Date()} >
+        <ScheduleComponent height='93vh' width='100vw' selectedDate={new Date()} >
         {/*comments*/}
       <Inject services={[Day, Week, WorkWeek, Month, Agenda]}/>
     </ScheduleComponent>

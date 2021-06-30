@@ -1,18 +1,45 @@
 .sideBar{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    background-color:rgb(197, 204, 204);
+    background-color: #131212;
     .upperSection{
         display: flex;
         flex-direction:column;
         align-items: center;
+        color:white;
+        .MuiSvgIcon-root{
+            margin: 15px 0;
+            fill: rgb(250, 250, 249);
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    .upperSection> a > div:hover{
+        background-color: rgb(109, 104, 104);
+    }
+    .upperSection> a {
+        width: 100%;
+        text-align: center;
     }
     .lowerSection{
         display: flex;
         flex-direction:column;
         align-items: center;
-        
+        color: white;
     }
+    .btn {
+        background-color: rgb(67, 31, 168);
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background:linear-gradient(to bottom, #5866b6 5%, #7892c2 100%);
+	    background-color:#476e9e;
+      }
 }

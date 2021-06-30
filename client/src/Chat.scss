@@ -1,11 +1,12 @@
-.card {
+  .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 30px;
     min-height: 30rem;
+    background-color: white;
   }
   form {
-    max-width: 250px;
+    max-width: 555px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
@@ -27,6 +28,8 @@
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+    height: auto;
+    width: 10000px;
   }
   
   h3 {

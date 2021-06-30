@@ -1,19 +1,24 @@
 import React from 'react'
-import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneOutlined';
+import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined';
 import ChatOutlinedIcon from '@material-ui/icons/ChatOutlined';
-import PeopleOutlineRoundedIcon from '@material-ui/icons/PeopleOutlineRounded';
 import CalendarTodayRoundedIcon from '@material-ui/icons/CalendarTodayRounded';
-import MoreHorizOutlinedIcon from '@material-ui/icons/MoreHorizOutlined';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
-import SvgIcon from '@material-ui/core/SvgIcon';
+import GetAppRoundedIcon from '@material-ui/icons/GetAppRounded';
 import './Sidebar.scss';
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
     return (
         <div className="sideBar">
-            <div className="upperSection"> <NotificationsNoneOutlinedIcon /> <ChatOutlinedIcon /> <PeopleOutlineRoundedIcon /> 
-            <CalendarTodayRoundedIcon /> <MoreHorizOutlinedIcon /> </div>
-            <div className="lowerSection">  <HelpOutlineIcon /> </div>
+
+            <div className="upperSection"> 
+                <Link to="/call"><div><PhoneOutlinedIcon /></div></Link>
+                <Link to="/chat"><div> <ChatOutlinedIcon /> </div></Link>
+                <Link to="/calendar"><div><CalendarTodayRoundedIcon /></div></Link>
+            </div>
+            <div className="lowerSection">  <HelpOutlineIcon /> <Link to="/">
+            <div><button className="btn"><GetAppRoundedIcon /> </button> </div></Link></div>
+
         </div>
     )
 }
