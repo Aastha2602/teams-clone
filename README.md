@@ -12,10 +12,6 @@ Along with the collaborative Whiteboard and Voice to Text feature, which helps i
 * Took a look at what feature I need to incorporate next and took constant weekly feedback from my mentor and asked for his precise suggestions and clarified my several doubts.
 * Everything we built could have flaws so the next step was to debug the code and improvise it. And hence, the planning for the next sprint started after the successful completion of the previous one.
 
-### Contents 
-* [Languages and Libraries Used](#languages-and-libraries-used)
-* [Features](#features)
-* [How to get started](#how-to-get-started)
 ### Tech Stack Used  💻
 
 * *Node.js with Xpress.js Framework*
@@ -32,7 +28,7 @@ Along with the collaborative Whiteboard and Voice to Text feature, which helps i
 
 **Client:** [React.js](https://reactjs.org/)
 
-**Server:** [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/)
+**Server:** [Node.js](https://nodejs.org/en/)
 
 **Deployment:** 
 * Frontend on Netlify 
