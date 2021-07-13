@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header-menu"> <img className="img" src={img}></img> </div>
-            <div className="header-leftfold"> <label classname="header-label"> Mircosoft Teams </label></div>
+            <div className="header-leftfold"> <label classname="header-label"> Microsoft Teams </label></div>
             <div className="header-rightfold"> 
                 <div className="header-search"> 
                     <i class="fi-rr-search"></i> <input placeholder="Search" />
