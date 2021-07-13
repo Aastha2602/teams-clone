@@ -60,3 +60,5 @@ Along with the collaborative Whiteboard and Voice to Text feature, which helps i
 * A collaborative whiteboard feature is implemented to help user make better understanding of anything, having the feature of changing the brush size and choosing any color from the color palette. This feature can be used from the sidebar.
 * A Voice to Text notes making feature is also present to enable the user to take down all the important notes without missing anything by clicking on the start/stop button present there and when the microphone is turned ***on***(shown by removal of red dot icon present with microphone icon) user can easilyu speak what he wants to note down and can save it by clicking on the save button. Saved notes will be shown in the saved notes box! 
 * User can Logout by clicking on Avatar present on the header.
+
+### Hope you have a joyous experience using it!
