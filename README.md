@@ -61,4 +61,12 @@ Along with the collaborative Whiteboard and Voice to Text feature, which helps i
 * A Voice to Text notes making feature is also present to enable the user to take down all the important notes without missing anything by clicking on the start/stop button present there and when the microphone is turned ***on***(shown by removal of red dot icon present with microphone icon) user can easilyu speak what he wants to note down and can save it by clicking on the save button. Saved notes will be shown in the saved notes box! 
 * User can Logout by clicking on Avatar present on the header.
 
+### Reference Materials:
+* https://github.com/NikValdez/ChatAppTut
+* https://firebase.google.com/docs/auth/where-to-start
+* https://socket.io/docs/v4
+* https://www.webrtc-experiment.com/docs/WebRTC-PeerConnection.html
+* https://firebase.google.com/docs/web/setup?authuser=0
+* https://www.youtube.com/watch?v=oxFr7we3LC8
+
 ### Hope you have a joyous experience using it!
