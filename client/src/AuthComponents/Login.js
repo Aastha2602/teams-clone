@@ -1,7 +1,8 @@
-import React, { useRef, useState } from "react"
-import { Form, Button, Card, Alert } from "react-bootstrap"
-import { useAuth } from "../Contexts/AuthContext"
-import { useHistory } from "react-router-dom"
+import React, { useRef, useState } from "react";
+import { Form, Button, Card, Alert } from "react-bootstrap";
+import { useAuth } from "../Contexts/AuthContext";
+import { Link,useHistory } from "react-router-dom";
+import LoginStyle from './LoginStyle.scss';
 
 export default function Login() {
   const emailRef = useRef()
@@ -13,7 +14,6 @@ export default function Login() {
 
   async function handleSubmit(e) {
     e.preventDefault()
-
     try {
       setError("")
       setLoading(true)
@@ -22,31 +22,40 @@ export default function Login() {
     } catch {
       setError("Failed to log in")
     }
-
     setLoading(false)
   }
 
   return (
-    <>
-      <Card>
+    <div >
+    <div className = 'login-page_container'>
+        <div className = 'login-page_login_box' >
+        <div className = 'login-page_logo_container' >
+        <Card>
         <Card.Body>
-          <h2 className="text-center mb-4">Log In</h2>
+          <h1 className="abcd">Login Form..</h1>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
-              <Form.Label>Email</Form.Label>
+              <Form.Label>Email: </Form.Label>
               <Form.Control type="email" ref={emailRef} required />
             </Form.Group>
             <Form.Group id="password">
-              <Form.Label>Password</Form.Label>
+            <br></br>
+              <Form.Label>Password: </Form.Label>
               <Form.Control type="password" ref={passwordRef} required />
             </Form.Group>
-            <Button disabled={loading} className="w-100" type="submit">
+      
+            <Button disabled={loading} className="button" type="submit">
               Log In
             </Button>
-          </Form>
-        </Card.Body>
-      </Card>
-    </>
+            </Form>
+          <div className="signup-button" ><h3 className="h3-style">
+            Need an account? <Link to="/signup">Sign Up Here</Link></h3>
+          </div>
+          </Card.Body>
+        </Card>
+        </div>
+        </div> </div>
+    </div>
   )
 }

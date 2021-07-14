@@ -2,10 +2,12 @@
   "name": "msteams",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://msteams-clone.herokuapp.com",
+  "proxy": "https://msteams-clone.herokuapp.com/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
+    "@syncfusion/ej2-react-calendars": "^19.2.46",
+    "@syncfusion/ej2-react-dropdowns": "^19.2.46",
     "@syncfusion/ej2-react-schedule": "^19.1.67",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

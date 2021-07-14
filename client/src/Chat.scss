@@ -1,41 +1,57 @@
-  .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-    min-height: 30rem;
-    background-color: white;
-  }
-  form {
-    max-width: 555px;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
-  }
-  
-  .name-field {
-    margin-bottom: 40px;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px;
-    background: transparent;
-    border-radius: 5px;
-  }
-  
-  .render-chat {
-    max-width: 350px;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
-    height: auto;
-    width: 10000px;
-  }
-  
-  h3 {
-    color: #2f72da;
-  }
-  
-  span {
-    color: black;
-  }
+.card1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  min-height: 30rem;
+  background-color: white;
+  width: 800px;
+}
+.roomsFold{
+  background-color: #464775;
+}
+form {
+  max-width: 555px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.name-field {
+  margin-bottom: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.render-chat {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+  height: auto;
+  width: 10000px;
+  width: 600px;
+}
+
+h3 {
+  color: #2f72da;
+}
+
+span {
+  color: black;
+}
+.sendMsg{
+  color: black;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 14px 40px;
+  font-size: large;
+}
+.sendMsg:hover{
+  background-color: #464775;
+  color: white;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}

@@ -1,16 +1,23 @@
 import React from 'react'
-import SearchIcon from '@material-ui/icons/Search';
-import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
-import PersonPinIcon from '@material-ui/icons/PersonPin';
 import './Header.scss';
-import { Input } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import img from '../../assets/microsoft.png';
 
 function Header() {
     return (
         <div className="header">
-            <div className="searchSection"> <label text="Search here:"> </label>
-                <input type="search" placeholder="search" ></input> <SearchIcon /> </div>
-            <div className="right"> <button> <MoreHorizIcon /> <PersonPinIcon /> </button> </div>
+            <div className="header-menu"> <img className="img" src={img}></img> </div>
+            <div className="header-leftfold"> <label classname="header-label"> Mircosoft Teams </label></div>
+            <div className="header-rightfold"> 
+                <div className="header-search"> 
+                    <i class="fi-rr-search"></i> <input placeholder="Search" />
+                </div>
+                <div className="header-profile"><div className="header-options"></div>
+                    <Link to="/dash">
+                        <img className="header-avatar" src="https://image.flaticon.com/icons/png/128/2922/2922510.png" />
+                    </Link>
+                </div>
+            </div>
         </div>
     )
 }
