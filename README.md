@@ -1,6 +1,6 @@
 # OMEGA : THE MS TEAMS CLONE
 ## Microsoft Engage'21 Project
-Hey Everone! Welcome to Omega: The ultimate MS TEAMS CLONE.
+Hey Everyone! Welcome to Omega: The ultimate MS TEAMS CLONE.
 This is a fully functional Real Time Video Calling Web Application where participants can connect with each other and have video and audio conversation incorporated with firebase authentication. Participants can also have chat before and after the meeting in their specific chat rooms. Users can create the chat rooms by scheduling corresponding events/meetings on the scheduler.
 Along with the collaborative Whiteboard and Voice to Text feature, which helps in not missing any important piece of information. 
 
