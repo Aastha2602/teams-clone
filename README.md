@@ -8,7 +8,7 @@ Along with the collaborative Whiteboard and Voice to Text feature, which helps i
 
 ### How I used Agile Methodology 
 * I had a clear vision of the key features that I wanted to build and hence used Agile methodology in order to achieve it on time by building it piecewise.
-* I have divided the timeline of 4 weeks into 4 sprints(each of 1 week) and checked my progress at the end of every sprint.
+* I have divided the timeline of 4 weeks into 4 sprints(each consisting of 1 week) and checked my progress at the end of every sprint.
 * Took a look at what feature I need to incorporate next and took constant weekly feedback from my mentor and asked for his precise suggestions and clarified my several doubts.
 * Everything we built could have flaws so the next step was to debug the code and improvise it. And hence, the planning for the next sprint started after the successful completion of the previous one.
 
